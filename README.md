@@ -3,4 +3,7 @@ Playing with the open-source API sportsipy to attempt to analyze trends across d
 
 ## Available analyzers
 ### MLB
- - % of games with no run first innings
+ - NRFI (No Run First Innings) from date range
+  - Given two dates, for each day in that range find the percentage of games with NRFI
+ - NRFI per team
+  - Given a team name, find the number of games they played with NRFI

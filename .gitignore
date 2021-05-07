@@ -1,3 +1,6 @@
+# Specific files I generated
+team_abbreviations.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
