@@ -1,5 +1,6 @@
 # Specific files I generated
 team_abbreviations.txt
+output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
