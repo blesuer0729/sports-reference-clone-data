@@ -15,12 +15,11 @@ This program allows you to get sports-reference data in json format.
 - NRFI per team
   - Given a team name, find the number of games they played with NRFI
 
-## FB (football/soccer)
+### FB (football/soccer)
 
 - Premier league standings table by season
 - Premier league team stats by season
 - Premier league rosters by season
-
 
 ## Running
 
