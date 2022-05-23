@@ -1,26 +1,25 @@
-# sportsipy-analyzer
+# sportsipy-exporters
 
-Playing with the open-source API sportsipy to attempt to analyze trends across different sports.
+Playing with the open-source API sportsipy.
 
-Also exporting various stats to json format so that they can be leveraged in other applications.
+Sportsipy scrapes from the site sports-reference.com and sports-reference has no export to JSON option.
 
-## Available analyzers
+This program allows you to get sports-reference data in json format.
+
+## Available exports
 
 ### MLB
 
 - NRFI (No Run First Innings) from date range
-  - Given two dates, for each day in that range find the percentage of games with NRFI
+  - Given two dates, for each day in that range find the games with NRFI
 - NRFI per team
   - Given a team name, find the number of games they played with NRFI
 
-## Available exporters
+## FB (football/soccer)
 
-## fb (football/soccer) IN-PROGRESS
-
-- Premier league
-  - League table
-  - Team stats
-  - Player stats
+- Premier league standings table by season
+- Premier league team stats by season
+- Premier league rosters by season
 
 
 ## Running

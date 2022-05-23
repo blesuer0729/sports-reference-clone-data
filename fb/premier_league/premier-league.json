@@ -1,0 +1,322 @@
+{
+    "Manchester City": {
+        "metadata": {
+            "Team Name": "Manchester City Stats, Premier League |",
+            "Position": 1,
+            "Record": "29-6-3",
+            "Points": 93,
+            "Goals": 99,
+            "Goals Against": 26
+        },
+        "schedule": {
+            "Games": 58
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Liverpool": {
+        "metadata": {
+            "Team Name": "Liverpool Stats, Primera Divisi\u00f3n |",
+            "Position": 1,
+            "Record": "8-2-3",
+            "Points": 26,
+            "Goals": 18,
+            "Goals Against": 7
+        },
+        "schedule": {
+            "Games": 17
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Chelsea": {
+        "metadata": {
+            "Team Name": "Chelsea Women Stats, Women's Super League |",
+            "Position": 1,
+            "Record": "18-2-2",
+            "Points": 56,
+            "Goals": 62,
+            "Goals Against": 11
+        },
+        "schedule": {
+            "Games": 28
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Tottenham Hotspur": {
+        "metadata": {
+            "Team Name": "Tottenham Hotspur Stats, Premier League |",
+            "Position": 4,
+            "Record": "22-5-11",
+            "Points": 71,
+            "Goals": 69,
+            "Goals Against": 40
+        },
+        "schedule": {
+            "Games": 54
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Arsenal": {
+        "metadata": {
+            "Team Name": "Arsenal Stats, Premier League |",
+            "Position": 5,
+            "Record": "22-3-13",
+            "Points": 69,
+            "Goals": 61,
+            "Goals Against": 48
+        },
+        "schedule": {
+            "Games": 45
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Manchester United": {
+        "metadata": {
+            "Team Name": "Manchester United Stats, Premier League |",
+            "Position": 6,
+            "Record": "16-10-12",
+            "Points": 58,
+            "Goals": 57,
+            "Goals Against": 57
+        },
+        "schedule": {
+            "Games": 49
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "West Ham United": {
+        "metadata": {
+            "Team Name": "West Ham United Women Stats, All Competitions |",
+            "Position": 6,
+            "Record": "7-6-9",
+            "Points": 27,
+            "Goals": 23,
+            "Goals Against": 33
+        },
+        "schedule": {
+            "Games": 22
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Wolverhampton Wanderers": {
+        "metadata": {
+            "Team Name": "Wolverhampton Wanderers Stats, Premier League |",
+            "Position": 10,
+            "Record": "15-6-17",
+            "Points": 51,
+            "Goals": 38,
+            "Goals Against": 43
+        },
+        "schedule": {
+            "Games": 42
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Leicester City": {
+        "metadata": {
+            "Team Name": "Leicester City Stats, Premier League |",
+            "Position": 8,
+            "Record": "14-10-14",
+            "Points": 52,
+            "Goals": 62,
+            "Goals Against": 59
+        },
+        "schedule": {
+            "Games": 58
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Brighton & Hove Albion": {
+        "metadata": {
+            "Team Name": "Brighton & Hove Albion Stats, Premier League |",
+            "Position": 9,
+            "Record": "12-15-11",
+            "Points": 51,
+            "Goals": 42,
+            "Goals Against": 44
+        },
+        "schedule": {
+            "Games": 43
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Newcastle United": {
+        "metadata": {
+            "Team Name": "Newcastle United Stats, Premier League |",
+            "Position": 11,
+            "Record": "13-10-15",
+            "Points": 49,
+            "Goals": 44,
+            "Goals Against": 62
+        },
+        "schedule": {
+            "Games": 40
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Brentford": {
+        "metadata": {
+            "Team Name": "Brentford Stats, Premier League |",
+            "Position": 13,
+            "Record": "13-7-18",
+            "Points": 46,
+            "Goals": 48,
+            "Goals Against": 56
+        },
+        "schedule": {
+            "Games": 44
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Southampton": {
+        "metadata": {
+            "Team Name": "Southampton Stats, Premier League |",
+            "Position": 15,
+            "Record": "9-13-16",
+            "Points": 40,
+            "Goals": 43,
+            "Goals Against": 67
+        },
+        "schedule": {
+            "Games": 45
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Crystal Palace": {
+        "metadata": {
+            "Team Name": "Crystal Palace Stats, Premier League |",
+            "Position": 12,
+            "Record": "11-15-12",
+            "Points": 48,
+            "Goals": 50,
+            "Goals Against": 46
+        },
+        "schedule": {
+            "Games": 44
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Aston Villa": {
+        "metadata": {
+            "Team Name": "Aston Villa Stats, Premier League |",
+            "Position": 14,
+            "Record": "13-6-19",
+            "Points": 45,
+            "Goals": 52,
+            "Goals Against": 54
+        },
+        "schedule": {
+            "Games": 41
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Leeds United": {
+        "metadata": {
+            "Team Name": "Leeds United Stats, Premier League |",
+            "Position": 17,
+            "Record": "9-11-18",
+            "Points": 38,
+            "Goals": 42,
+            "Goals Against": 79
+        },
+        "schedule": {
+            "Games": 42
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Everton": {
+        "metadata": {
+            "Team Name": "Everton Women Stats, All Competitions |",
+            "Position": 10,
+            "Record": "5-5-12",
+            "Points": 20,
+            "Goals": 18,
+            "Goals Against": 41
+        },
+        "schedule": {
+            "Games": 22
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Burnley": {
+        "metadata": {
+            "Team Name": "Burnley Stats, Premier League |",
+            "Position": 18,
+            "Record": "7-14-17",
+            "Points": 35,
+            "Goals": 34,
+            "Goals Against": 53
+        },
+        "schedule": {
+            "Games": 42
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Watford": {
+        "metadata": {
+            "Team Name": "Watford Stats, Premier League |",
+            "Position": 19,
+            "Record": "6-5-27",
+            "Points": 23,
+            "Goals": 34,
+            "Goals Against": 77
+        },
+        "schedule": {
+            "Games": 41
+        },
+        "roster": {
+            "Players": 0
+        }
+    },
+    "Norwich City": {
+        "metadata": {
+            "Team Name": "Norwich City Stats, Premier League |",
+            "Position": 20,
+            "Record": "5-7-26",
+            "Points": 22,
+            "Goals": 23,
+            "Goals Against": 84
+        },
+        "schedule": {
+            "Games": 43
+        },
+        "roster": {
+            "Players": 0
+        }
+    }
+}
