@@ -1,26 +1,19 @@
-# sportsipy-exporters
+# sports-reference to JSON
 
-Playing with the open-source API sportsipy.
+This project originally started as using the open-source API [sportsipy](https://github.com/roclark/sportsipy) in attempt to pull data and export it in JSON format. Unfortunately, sportsipy was decomissioned and no longer functions to pull data.
 
-Sportsipy scrapes from the site sports-reference.com and sports-reference has no export to JSON option.
-
-This program allows you to get sports-reference data in json format.
+Sports-reference allows you to export tables as CSV or Excel workbook and this project now aims to parse those exports and generate JSON files of the same data.
 
 ## Available exports
 
+### NFL
+
+### NBA
+
+### NHL
+
 ### MLB
-
-- NRFI (No Run First Innings) from date range
-  - Given two dates, for each day in that range find the games with NRFI
-- NRFI per team
-  - Given a team name, find the number of games they played with NRFI
-
-### FB (football/soccer)
-
-- Premier league standings table by season
-- Premier league team stats by season
-- Premier league rosters by season
 
 ## Running
 
-See individul documentation per module for how to run them.
+See docs for each sport on how to run their modules.
