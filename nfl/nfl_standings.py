@@ -6,6 +6,7 @@ nfc = pd.read_html("./input/NFC.xls")
 afc_df = afc[0]
 nfc_df = nfc[0]
 nfl_standings = {
+    "season": 2021,
     "afc": {},
     "nfc": {}
 }

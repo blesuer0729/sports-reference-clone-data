@@ -8,6 +8,8 @@ Sports-reference allows you to export tables as CSV or Excel workbook and this p
 
 ### NFL
 
+- Conference standings (AFC/NFC)
+
 ### NBA
 
 ### NHL

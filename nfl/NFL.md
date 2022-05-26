@@ -4,6 +4,8 @@ Convert CSV/Excel exports from NFL data into JSON files
 
 ## Running
 
-```bash
+to generate json output from this directory run
 
+```bash
+python3 nfl_standings.py
 ```
