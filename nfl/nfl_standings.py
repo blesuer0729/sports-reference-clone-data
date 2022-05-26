@@ -13,8 +13,7 @@ nfl_standings = {
 # print(afc_df)
 # print(nfc_df)
 
-i = 0
-while i < len(afc_df):
+for i in range(0,16):
     team = afc_df.loc[i]
     nfl_standings["afc"][team['Tm']] = {
         "wins": int(team['W']),
@@ -25,10 +24,8 @@ while i < len(afc_df):
         "points against": int(team['PA']),
         "differential": int(team['PD']),
     }
-    i += 1
 
-x = 0
-while x < len(nfc_df):
+for x in range(0,16):
     team = nfc_df.loc[x]
     nfl_standings["nfc"][team['Tm']] = {
         "wins": int(team['W']),
@@ -39,7 +36,6 @@ while x < len(nfc_df):
         "points against": int(team['PA']),
         "differential": int(team['PD']),
     }
-    x += 1
 
 outfile = open("./output/nfl_standings.json", "w")
 output = json.dumps(nfl_standings)
