@@ -1,0 +1,294 @@
+{
+    "afc": {
+        "Buffalo Bills*": {
+            "wins": 11,
+            "losses": 6,
+            "ties": 0,
+            "win %": 0,
+            "points for": 483,
+            "points against": 289,
+            "differential": 194
+        },
+        "New England Patriots+": {
+            "wins": 10,
+            "losses": 7,
+            "ties": 0,
+            "win %": 0,
+            "points for": 462,
+            "points against": 303,
+            "differential": 159
+        },
+        "Miami Dolphins": {
+            "wins": 9,
+            "losses": 8,
+            "ties": 0,
+            "win %": 0,
+            "points for": 341,
+            "points against": 373,
+            "differential": -32
+        },
+        "New York Jets": {
+            "wins": 4,
+            "losses": 13,
+            "ties": 0,
+            "win %": 0,
+            "points for": 310,
+            "points against": 504,
+            "differential": -194
+        },
+        "Cincinnati Bengals*": {
+            "wins": 10,
+            "losses": 7,
+            "ties": 0,
+            "win %": 0,
+            "points for": 460,
+            "points against": 376,
+            "differential": 84
+        },
+        "Pittsburgh Steelers+": {
+            "wins": 9,
+            "losses": 7,
+            "ties": 1,
+            "win %": 0,
+            "points for": 343,
+            "points against": 398,
+            "differential": -55
+        },
+        "Cleveland Browns": {
+            "wins": 8,
+            "losses": 9,
+            "ties": 0,
+            "win %": 0,
+            "points for": 349,
+            "points against": 371,
+            "differential": -22
+        },
+        "Baltimore Ravens": {
+            "wins": 8,
+            "losses": 9,
+            "ties": 0,
+            "win %": 0,
+            "points for": 387,
+            "points against": 392,
+            "differential": -5
+        },
+        "Tennessee Titans*": {
+            "wins": 12,
+            "losses": 5,
+            "ties": 0,
+            "win %": 0,
+            "points for": 419,
+            "points against": 354,
+            "differential": 65
+        },
+        "Indianapolis Colts": {
+            "wins": 9,
+            "losses": 8,
+            "ties": 0,
+            "win %": 0,
+            "points for": 451,
+            "points against": 365,
+            "differential": 86
+        },
+        "Houston Texans": {
+            "wins": 4,
+            "losses": 13,
+            "ties": 0,
+            "win %": 0,
+            "points for": 280,
+            "points against": 452,
+            "differential": -172
+        },
+        "Jacksonville Jaguars": {
+            "wins": 3,
+            "losses": 14,
+            "ties": 0,
+            "win %": 0,
+            "points for": 253,
+            "points against": 457,
+            "differential": -204
+        },
+        "Kansas City Chiefs*": {
+            "wins": 12,
+            "losses": 5,
+            "ties": 0,
+            "win %": 0,
+            "points for": 480,
+            "points against": 364,
+            "differential": 116
+        },
+        "Las Vegas Raiders+": {
+            "wins": 10,
+            "losses": 7,
+            "ties": 0,
+            "win %": 0,
+            "points for": 374,
+            "points against": 439,
+            "differential": -65
+        },
+        "Los Angeles Chargers": {
+            "wins": 9,
+            "losses": 8,
+            "ties": 0,
+            "win %": 0,
+            "points for": 474,
+            "points against": 459,
+            "differential": 15
+        },
+        "Denver Broncos": {
+            "wins": 7,
+            "losses": 10,
+            "ties": 0,
+            "win %": 0,
+            "points for": 335,
+            "points against": 322,
+            "differential": 13
+        }
+    },
+    "nfc": {
+        "Dallas Cowboys*": {
+            "wins": 12,
+            "losses": 5,
+            "ties": 0,
+            "win %": 0,
+            "points for": 530,
+            "points against": 358,
+            "differential": 172
+        },
+        "Philadelphia Eagles+": {
+            "wins": 9,
+            "losses": 8,
+            "ties": 0,
+            "win %": 0,
+            "points for": 444,
+            "points against": 385,
+            "differential": 59
+        },
+        "Washington Football Team": {
+            "wins": 7,
+            "losses": 10,
+            "ties": 0,
+            "win %": 0,
+            "points for": 335,
+            "points against": 434,
+            "differential": -99
+        },
+        "New York Giants": {
+            "wins": 4,
+            "losses": 13,
+            "ties": 0,
+            "win %": 0,
+            "points for": 258,
+            "points against": 416,
+            "differential": -158
+        },
+        "Green Bay Packers*": {
+            "wins": 13,
+            "losses": 4,
+            "ties": 0,
+            "win %": 0,
+            "points for": 450,
+            "points against": 371,
+            "differential": 79
+        },
+        "Minnesota Vikings": {
+            "wins": 8,
+            "losses": 9,
+            "ties": 0,
+            "win %": 0,
+            "points for": 425,
+            "points against": 426,
+            "differential": -1
+        },
+        "Chicago Bears": {
+            "wins": 6,
+            "losses": 11,
+            "ties": 0,
+            "win %": 0,
+            "points for": 311,
+            "points against": 407,
+            "differential": -96
+        },
+        "Detroit Lions": {
+            "wins": 3,
+            "losses": 13,
+            "ties": 1,
+            "win %": 0,
+            "points for": 325,
+            "points against": 467,
+            "differential": -142
+        },
+        "Tampa Bay Buccaneers*": {
+            "wins": 13,
+            "losses": 4,
+            "ties": 0,
+            "win %": 0,
+            "points for": 511,
+            "points against": 353,
+            "differential": 158
+        },
+        "New Orleans Saints": {
+            "wins": 9,
+            "losses": 8,
+            "ties": 0,
+            "win %": 0,
+            "points for": 364,
+            "points against": 335,
+            "differential": 29
+        },
+        "Atlanta Falcons": {
+            "wins": 7,
+            "losses": 10,
+            "ties": 0,
+            "win %": 0,
+            "points for": 313,
+            "points against": 459,
+            "differential": -146
+        },
+        "Carolina Panthers": {
+            "wins": 5,
+            "losses": 12,
+            "ties": 0,
+            "win %": 0,
+            "points for": 304,
+            "points against": 404,
+            "differential": -100
+        },
+        "Los Angeles Rams*": {
+            "wins": 12,
+            "losses": 5,
+            "ties": 0,
+            "win %": 0,
+            "points for": 460,
+            "points against": 372,
+            "differential": 88
+        },
+        "Arizona Cardinals+": {
+            "wins": 11,
+            "losses": 6,
+            "ties": 0,
+            "win %": 0,
+            "points for": 449,
+            "points against": 366,
+            "differential": 83
+        },
+        "San Francisco 49ers+": {
+            "wins": 10,
+            "losses": 7,
+            "ties": 0,
+            "win %": 0,
+            "points for": 427,
+            "points against": 365,
+            "differential": 62
+        },
+        "Seattle Seahawks": {
+            "wins": 7,
+            "losses": 10,
+            "ties": 0,
+            "win %": 0,
+            "points for": 395,
+            "points against": 366,
+            "differential": 29
+        }
+    }
+}
