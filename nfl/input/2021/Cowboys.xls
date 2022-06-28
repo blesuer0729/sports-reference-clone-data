@@ -18,7 +18,7 @@
          <th aria-label="Week" data-stat="week_num" scope="col" class=" poptip sort_default_asc sorttable_nosort center" data-tip="Week number in season">Week</th>
          <th aria-label="Day" data-stat="game_day_of_week" scope="col" class=" poptip sort_default_asc left">Day</th>
          <th aria-label="Date" data-stat="game_date" scope="col" class=" poptip sort_default_asc center">Date</th>
-         <th aria-label="" data-stat="game_time" scope="col" class=" poptip center"></th>
+         <th aria-label="game_time" data-stat="game_time" scope="col" class=" poptip center"></th>
          <th aria-label="" data-stat="boxscore_word" scope="col" class=" poptip sort_default_asc center"></th>
          <th aria-label="" data-stat="game_outcome" scope="col" class=" poptip center"></th>
          <th aria-label="OT" data-stat="overtime" scope="col" class=" poptip sort_default_asc left">OT</th>

@@ -1,21 +1,36 @@
 # sports-reference to JSON
 
-This project originally started as using the open-source API [sportsipy](https://github.com/roclark/sportsipy) in attempt to pull data and export it in JSON format. Unfortunately, sportsipy was decomissioned and no longer functions to pull data.
+In order to create a clone front-end for sports-reference.com I needed something to pull the data from.
 
-Sports-reference allows you to export tables as CSV or Excel workbook and this project now aims to parse those exports and generate JSON files of the same data.
+After downloading all of the nesecarry tables off sports-reference this project allows you to bootstrap a MongoDB with all the necessary data to populate the front-end.
 
-## Available exports
+## Pre requisites
 
-### NFL
+A running mongoDB instance that you can connect to and an environment variable for the connection uri
 
-- Conference standings (AFC/NFC)
+- e.g. MONGO_URI="mongodb://localhost:27017/"
 
-### NBA
+## Data
 
-### NHL
+Included data for the following sports for the last 5 seasons
 
-### MLB
+- NFL
+  - AFC / NFC Standings data
+  - Team Schedule data
+
+- NBA
+
+- NHL
+
+- MLB
 
 ## Running
 
-See docs for each sport on how to run their modules.
+NFL
+To run the script and generate the included nfl input data in your db for a given season:
+
+```bash
+python3 nfl.py --season 2021
+```
+
+the ```--season``` flag is required and can either be ```all``` or a year e.g. ```2021```
