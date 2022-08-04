@@ -6,8 +6,6 @@ from pymongo import MongoClient
 # DB config
 dbclient = MongoClient("mongodb://admin:password@localhost:27017/")
 db = dbclient["sportsref"]
-standingsColl = db["Standings"]
-schedulesColl = db["Schedules"]
 
 # args config
 parser = argparse.ArgumentParser()
@@ -21,18 +19,13 @@ teams = ["Bills", "Patriots", "Dolphins", "Jets", "Bengals", "Steelers", "Browns
 def main():
     if (args.season == 'all'):
         for season in seasons:
-            standingsObj = standings.generate(season)
-            runInsert = standingsColl.insert_one(standingsObj)
+            standings.generate(db, season)
             for team in teams:
-                scheduleObj = schedule.generate(season, "Cowboys")
-                runInsert = schedulesColl.insert_one(scheduleObj)
+                schedule.generate(db, season, team)
     else:
-        standingsObj = standings.generate(args.season)
-        runInsert = standingsColl.insert_one(standingsObj)
+        standings.generate(db, args.season)
         for team in teams:
-            print('putting team ' + team)
-            scheduleObj = schedule.generate(args.season, "Cowboys")
-            runInsert = schedulesColl.insert_one(scheduleObj)
+            schedule.generate(db, args.season, team)
 
 if __name__ == "__main__":
     main()

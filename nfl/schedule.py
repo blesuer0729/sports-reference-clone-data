@@ -1,12 +1,14 @@
 import pandas as pd
 import json
 
-def generate(season, team):
-    schedule = pd.read_html("../input-data/nfl/" + season + "/" + team + ".xls")
-    schedule_df = schedule[0]
+def generate(db, season, team):
+    dbCollTeam = db["nfl" + team]
 
-    team_obj = {
-        "season": 2021,
+    # schedule = pd.read_html("../input-data/nfl/" + season + "/" + team + ".xls")
+    # schedule_df = schedule[0]
+
+    nfl_team_dict = {
+        "season": season,
         "team": team,
         "Week 1": {},
         "Week 2": {},
@@ -28,12 +30,12 @@ def generate(season, team):
         "Week 18": {},
     }
 
-    game = schedule_df.loc[:, "Game"]
-    score = schedule_df.loc[:, "Score"]
-    offense = schedule_df.loc[:, "Offense"]
-    defense = schedule_df.loc[:, "Defense"]
-    expected_points = schedule_df.loc[:, "Expected Points"]
+    # game = schedule_df.loc[:, "Game"]
+    # score = schedule_df.loc[:, "Score"]
+    # offense = schedule_df.loc[:, "Offense"]
+    # defense = schedule_df.loc[:, "Defense"]
+    # expected_points = schedule_df.loc[:, "Expected Points"]
 
     # output is going to be handled by pymongo
-    output = team_obj
-    return output
+    output = nfl_team_dict
+    runInsert = dbCollTeam.insert_one(nfl_team_dict)
