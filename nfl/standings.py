@@ -2,8 +2,8 @@ import pandas as pd
 import json
 
 def generate(season):
-    afc = pd.read_html("./input/" + season + "/Afc.xls")
-    nfc = pd.read_html("./input/" + season + "/Nfc.xls")
+    afc = pd.read_html("../input-data/nfl/" + season + "/Afc.xls")
+    nfc = pd.read_html("../input-data/nfl/" + season + "/Nfc.xls")
     afc_df = afc[0]
     nfc_df = nfc[0]
     nfl_standings = {
@@ -37,6 +37,5 @@ def generate(season):
         }
 
     # output is going to be handled by pymongo
-    output = json.dumps(nfl_standings)
-
-    print(season + " season")
+    output = nfl_standings
+    return output

@@ -1,7 +1,15 @@
 import argparse
 import standings
 import schedule
+from pymongo import MongoClient
 
+# DB config
+dbclient = MongoClient("mongodb://admin:password@localhost:27017/")
+db = dbclient["sportsref"]
+standingsColl = db["Standings"]
+schedulesColl = db["Schedules"]
+
+# args config
 parser = argparse.ArgumentParser()
 parser.add_argument("--season", type=str, help="Set this flag to all or a specific season you want to import data for")
 args = parser.parse_args()
@@ -13,13 +21,18 @@ teams = ["Bills", "Patriots", "Dolphins", "Jets", "Bengals", "Steelers", "Browns
 def main():
     if (args.season == 'all'):
         for season in seasons:
-            standings.generate(season)
+            standingsObj = standings.generate(season)
+            runInsert = standingsColl.insert_one(standingsObj)
             for team in teams:
-                schedule.generate(season, team)
+                scheduleObj = schedule.generate(season, "Cowboys")
+                runInsert = schedulesColl.insert_one(scheduleObj)
     else:
-        standings.generate(args.season)
+        standingsObj = standings.generate(args.season)
+        runInsert = standingsColl.insert_one(standingsObj)
         for team in teams:
-            schedule.generate(args.season, team)
+            print('putting team ' + team)
+            scheduleObj = schedule.generate(args.season, "Cowboys")
+            runInsert = schedulesColl.insert_one(scheduleObj)
 
 if __name__ == "__main__":
     main()

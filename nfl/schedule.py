@@ -2,12 +2,12 @@ import pandas as pd
 import json
 
 def generate(season, team):
-    # "./input/" + season + "/" + team + ".xls"
-    schedule = pd.read_html("./input/" + season + "/Cowboys.xls")
+    schedule = pd.read_html("../input-data/nfl/" + season + "/" + team + ".xls")
     schedule_df = schedule[0]
 
     team_obj = {
         "season": 2021,
+        "team": team,
         "Week 1": {},
         "Week 2": {},
         "Week 3": {},
@@ -35,6 +35,5 @@ def generate(season, team):
     expected_points = schedule_df.loc[:, "Expected Points"]
 
     # output is going to be handled by pymongo
-    output = json.dumps(team_obj)
-
-    print(season + " " + team)
+    output = team_obj
+    return output
