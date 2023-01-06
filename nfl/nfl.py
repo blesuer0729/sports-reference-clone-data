@@ -13,8 +13,8 @@ parser.add_argument("--season", type=str, help="Set this flag to all or a specif
 args = parser.parse_args()
 
 seasons = ["2015", "2016", "2017", "2018", "2019", "2020", "2021"]
-teams = ["Bills", "Patriots", "Dolphins", "Jets", "Bengals", "Steelers", "Browns", "Ravens", "Titans", "Colts", "Texans", "Jaguars", "Chiefs", "Raiders", "Chargers", "Broncos",
-        "Cowboys", "Eagles", "Commanders", "Giants", "Packers", "Vikings", "Bears", "Lions", "Buccaneers", "Saints", "Falcons", "Panthers", "Rams", "Cardinals", "49ers", "Seahawks"]
+teams = ["bills", "patriots", "dolphins", "jets", "bengals", "steelers", "browns", "ravens", "titans", "colts", "texans", "jaguars", "chiefs", "raiders", "chargers", "broncos",
+        "cowboys", "eagles", "commanders", "giants", "packers", "vikings", "bears", "lions", "buccaneers", "saints", "falcons", "panthers", "rams", "cardinals", "49ers", "seahawks"]
 
 def main():
     if (args.season == 'all'):

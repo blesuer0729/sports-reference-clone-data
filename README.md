@@ -2,7 +2,7 @@
 
 In order to create a clone front-end for sports-reference.com I needed something to pull the data from.
 
-After downloading all of the nesecarry tables off sports-reference since they block web scrapers, this project stores csv data sheets in mongo so that the front end can use mongo
+After downloading all of the nesecarry tables off sports-reference since they block web scrapers, I can botstrap a database in mongo using dataa from the excel books.
 
 ## Pre requisites
 
